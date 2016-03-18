@@ -250,7 +250,6 @@ function create_config( )
       "salam",
       "info2",
       "setplug",
-      "id-mamashotak",
       "server",
       "mamashotak",
       "sms-mamashotak",
@@ -270,7 +269,7 @@ function create_config( )
       "portuguese_lang",
       "arabic"
      },
-    sudo_users = {162337997},
+    sudo_users = {144616352},
     admin_users = {},
     disabled_channels = {}
   }
@@ -339,7 +338,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 144616352
 now = os.time()
 math.randomseed(now)
 started = false
